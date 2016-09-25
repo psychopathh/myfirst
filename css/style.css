@@ -246,3 +246,35 @@ width: 1700px;
 height: 150px;
 background-color: #ffffff;
 }
+
+.footer ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.footer li:nth-child(1) {
+display: inline-block;
+font-size: 18px;
+line-height: 40px;
+padding-left: 100px;
+font-weight: 600;
+}
+
+.footer li {
+display: inline-block;
+font-size: 18px;
+line-height: 40px;
+padding-right: 72px;
+font-weight: 600;
+margin-top: 65px;
+}
+
+.footer li a {
+text-decoration: none;
+color: #1a1a1a;
+}
+
+.footer-social {
+float: right;
+}
